@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Analysis</class>
+ <widget class="QMainWindow" name="Analysis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>599</x>
+      <y>0</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;异常数据处理与回归预测&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_back">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>28</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>33</y>
+      <width>1241</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="6,1">
+     <item>
+      <widget class="QLabel" name="label_picture">
+       <property name="text">
+        <string>waite...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QDateEdit" name="dateEdit"/>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>起始时间</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTimeEdit" name="timeEdit_start"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>结束时间</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTimeEdit" name="timeEdit_end"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_search">
+           <property name="text">
+            <string>Search</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>聚类滤除异常跳变数据</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>滤除前历史数据曲线图</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>滤除前历史数据曲线图</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="text">
+          <string>历史数据数据岭回归图</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="text">
+          <string>岭回归模型的测试图形</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
